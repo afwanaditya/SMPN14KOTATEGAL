@@ -10,6 +10,48 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SMP14KOTATEGAL">
         <activity
+            android:name=".FasilitasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Buku9Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Buku8Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Buku7Activity"
+            android:exported="false" />
+        <activity
+            android:name=".DrumbbandActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FutsalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PmrActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PramukaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AlbumkegiatanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AlbumdrumbbandActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AlbumfutsalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AlbumkegiatankemahbudayaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AlbumperpisahanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AlbumpelantikanosisActivity"
+            android:exported="false" />
+        <activity
             android:name=".PerpusActivity"
             android:exported="false" />
         <activity

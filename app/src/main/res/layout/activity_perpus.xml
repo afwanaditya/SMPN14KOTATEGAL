@@ -70,7 +70,7 @@
                                     android:layout_gravity="center"
                                     android:layout_marginRight="10dp"
                                     android:layout_marginTop="10dp"
-                                    android:src="@drawable/buku">
+                                    android:src="@drawable/tujuh">
 
                                 </ImageView>
 
@@ -113,7 +113,7 @@
                                     android:layout_gravity="center"
                                     android:layout_marginRight="10dp"
                                     android:layout_marginTop="10dp"
-                                    android:src="@drawable/book">
+                                    android:src="@drawable/delapan">
 
                                 </ImageView>
 
@@ -156,7 +156,7 @@
                                     android:layout_margin="10dp"
                                     android:layout_marginTop="10dp"
                                     android:layout_marginRight="10dp"
-                                    android:src="@drawable/buk">
+                                    android:src="@drawable/sembilan">
 
                                 </ImageView>
 

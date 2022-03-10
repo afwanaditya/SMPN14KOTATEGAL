@@ -30,6 +30,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void fasilitas(View view) {
+        Intent intent = new Intent(MainActivity.this, FasilitasActivity.class);
+        startActivity(intent);
     }
 
     public void ekskul(View view) {

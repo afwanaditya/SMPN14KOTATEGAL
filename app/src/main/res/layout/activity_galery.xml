@@ -57,7 +57,7 @@
 
                 <!--                            pembuka menu 1-->
                 <androidx.cardview.widget.CardView
-                    android:onClick="albumpelantikanosis"
+                    android:onClick="albumfutsal"
                     android:layout_width="150dp"
                     android:layout_height="150dp"
                     android:layout_rowWeight="1"
@@ -95,7 +95,7 @@
                             android:layout_marginLeft="50dp"
                             android:textStyle="bold"
                             android:textSize="20dp"
-                            android:text="KEGIATAN PELANTIKAN OSIS">
+                            android:text="ALBUM FUTSAL">
 
                         </TextView>
 
@@ -108,7 +108,7 @@
                 <!--                            pembuka menu 2-->
 
                 <androidx.cardview.widget.CardView
-                    android:onClick="albumperpisahan"
+                    android:onClick="albumdrumbband"
                     android:layout_width="150dp"
                     android:layout_height="150dp"
                     android:layout_rowWeight="1"
@@ -143,10 +143,10 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:layout_marginLeft="50dp"
+                            android:layout_marginLeft="35dp"
                             android:textStyle="bold"
                             android:textSize="20dp"
-                            android:text="ALBUM KEGIATAN ">
+                            android:text="ALBUM DRUMB BAND ">
 
                         </TextView>
 
@@ -159,7 +159,7 @@
 
                 <!--                            pembuka menu 3-->
                 <androidx.cardview.widget.CardView
-                    android:onClick="albumkegiatankemahbudaya"
+                    android:onClick="albumkegiatan"
                     android:layout_width="150dp"
                     android:layout_height="150dp"
                     android:layout_rowWeight="1"
@@ -197,7 +197,7 @@
                             android:layout_marginLeft="50dp"
                             android:textStyle="bold"
                             android:textSize="20dp"
-                            android:text="KEGIATAN KEMAH BUDAYA">
+                            android:text="ALBUM KEGIATAN">
 
                         </TextView>
                     </LinearLayout>

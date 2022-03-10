@@ -2,6 +2,7 @@ package com.ifa.smp14kotategal;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
@@ -13,12 +14,19 @@ public class GaleryActivity extends AppCompatActivity {
         setContentView(R.layout.activity_galery);
     }
 
-    public void albumpelantikanosis(View view) {
+
+    public void albumfutsal(View view) {
+        Intent intent = new Intent(GaleryActivity.this, AlbumfutsalActivity.class);
+        startActivity(intent);
     }
 
-    public void albumperpisahan(View view) {
+    public void albumdrumbband(View view) {
+        Intent intent = new Intent(GaleryActivity.this, AlbumdrumbbandActivity.class);
+        startActivity(intent);
     }
 
-    public void albumkegiatankemahbudaya(View view) {
+    public void albumkegiatan(View view) {
+        Intent intent = new Intent(GaleryActivity.this, AlbumkegiatanActivity.class);
+        startActivity(intent);
     }
 }

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PerpusActivity"
+    android:background="@drawable/bekron">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="195dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/header" />
+
+                </RelativeLayout>
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="15dp">
+
+                    <GridLayout
+                        android:id="@+id/mainGrid"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:alignmentMode="alignMargins"
+                        android:columnCount="1"
+                        android:columnOrderPreserved="false">
+
+                        <!--                            PEMBUKA MENU 1-->
+                        <androidx.cardview.widget.CardView
+                            android:onClick="Buku7"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_rowWeight="1"
+                            android:layout_columnWeight="1"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginRight="12dp"
+                            android:layout_marginBottom="12dp"
+                            app:cardCornerRadius="8dp"
+                            app:cardElevation="8dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal"
+                                android:layout_gravity="center">
+
+                                <ImageView
+                                    android:layout_width="140dp"
+                                    android:layout_height="140dp"
+                                    android:layout_margin="10dp"
+                                    android:layout_gravity="center"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:src="@drawable/buku">
+
+                                </ImageView>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_marginLeft="50dp"
+                                    android:text="BUKU KELAS VII">
+
+                                </TextView>
+
+                            </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                        <!--                            PEMBUKA MENU 2-->
+                        <androidx.cardview.widget.CardView
+                            android:onClick="Buku8"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_rowWeight="1"
+                            android:layout_columnWeight="1"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginRight="12dp"
+                            android:layout_marginBottom="12dp"
+                            app:cardCornerRadius="8dp"
+                            app:cardElevation="8dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal"
+                                android:layout_gravity="center">
+
+                                <ImageView
+                                    android:layout_width="140dp"
+                                    android:layout_height="140dp"
+                                    android:layout_margin="10dp"
+                                    android:layout_gravity="center"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:src="@drawable/book">
+
+                                </ImageView>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_marginLeft="50dp"
+                                    android:text="BUKU KELAS VIII">
+
+                                </TextView>
+
+                            </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                        <!--                            PEMBUKA MENU 3-->
+                        <androidx.cardview.widget.CardView
+                            android:onClick="Buku9"
+                            android:layout_width="359dp"
+                            android:layout_height="150dp"
+                            android:layout_rowWeight="1"
+                            android:layout_columnWeight="1"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginRight="12dp"
+                            android:layout_marginBottom="12dp"
+                            app:cardCornerRadius="8dp"
+                            app:cardElevation="8dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="140dp"
+                                    android:layout_height="140dp"
+                                    android:layout_gravity="center"
+                                    android:layout_margin="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginRight="10dp"
+                                    android:src="@drawable/buk">
+
+                                </ImageView>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_marginLeft="50dp"
+                                    android:text="BUKU KELAS IX">
+
+                                </TextView>
+
+                            </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                    </GridLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </LinearLayout>
+
+
+        </ScrollView>
+    </FrameLayout>
+</RelativeLayout>

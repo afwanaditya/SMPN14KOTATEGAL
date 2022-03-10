@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EkstrakulikulerActivity"
+    android:background="@drawable/bekron">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="195dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/header">
+
+                    </ImageView>
+
+                </RelativeLayout>
+
+                <androidx.core.widget.NestedScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingviewBehavior">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="15dp">
+
+                        <GridLayout
+                            android:id="@+id/mainGrid"
+                            android:layout_width="match_parent"
+                            android:layout_weight="9"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:alignmentMode="alignMargins"
+                            android:columnCount="1"
+                            android:columnOrderPreserved="false">
+
+                            <!--                            Pembuka Menu 1-->
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="120dp"
+                                    app:cardCornerRadius="15dp"
+                                    android:layout_marginTop="20dp"
+                                    android:onClick="pramuka">
+
+                                    <RelativeLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:background="#C69956"
+                                        android:padding="10dp">
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginLeft="10dp"
+                                            android:layout_marginTop="10dp"
+                                            android:text="Pramuka"
+                                            android:textColor="#fff"
+                                            android:textSize="30sp"
+                                            android:textStyle="bold" />
+
+                                        <ImageView
+                                            android:layout_width="150dp"
+                                            android:layout_height="100dp"
+                                            android:layout_alignParentRight="true"
+                                            android:maxHeight="100dp"
+                                            android:src="@drawable/pramukasampul" />
+                                    </RelativeLayout>
+                                </androidx.cardview.widget.CardView>
+                            </LinearLayout>
+                            <!--                        Penutup Menu1-->
+
+                            <!--                            Pembuka Menu 2-->
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="120dp"
+                                    app:cardCornerRadius="15dp"
+                                    android:layout_marginTop="20dp"
+                                    android:onClick="pmr">
+
+                                    <RelativeLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:background="#FFC107"
+                                        android:padding="10dp">
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginLeft="10dp"
+                                            android:layout_marginTop="10dp"
+                                            android:text="PMR"
+                                            android:textColor="#fff"
+                                            android:textSize="30sp"
+                                            android:textStyle="bold" />
+
+                                        <ImageView
+                                            android:layout_width="150dp"
+                                            android:layout_height="100dp"
+                                            android:layout_alignParentRight="true"
+                                            android:maxHeight="100dp"
+                                            android:src="@drawable/obat" />
+                                    </RelativeLayout>
+                                </androidx.cardview.widget.CardView>
+                            </LinearLayout>
+                            <!--                        Penutup Menu2-->
+
+                            <!--                            Pembuka Menu 3-->
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="120dp"
+                                    app:cardCornerRadius="15dp"
+                                    android:layout_marginTop="20dp"
+                                    android:onClick="futsal">
+
+                                    <RelativeLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:background="#8A5FFF"
+                                        android:padding="10dp">
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginLeft="10dp"
+                                            android:layout_marginTop="10dp"
+                                            android:text="Futsal"
+                                            android:textColor="#fff"
+                                            android:textSize="30sp"
+                                            android:textStyle="bold" />
+
+                                        <ImageView
+                                            android:layout_width="150dp"
+                                            android:layout_height="100dp"
+                                            android:layout_alignParentRight="true"
+                                            android:maxHeight="100dp"
+                                            android:src="@drawable/football" />
+                                    </RelativeLayout>
+                                </androidx.cardview.widget.CardView>
+                            </LinearLayout>
+                            <!--                            Penutup Menu 3-->
+
+                            <!--                            Pembuka Menu 4-->
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="120dp"
+                                    app:cardCornerRadius="15dp"
+                                    android:layout_marginTop="20dp"
+                                    android:onClick="volly">
+
+                                    <RelativeLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:background="#FF8B8B"
+                                        android:padding="10dp">
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginLeft="10dp"
+                                            android:layout_marginTop="10dp"
+                                            android:text="Drumb band"
+                                            android:textColor="#fff"
+                                            android:textSize="30sp"
+                                            android:textStyle="bold" />
+
+                                        <ImageView
+                                            android:layout_width="150dp"
+                                            android:layout_height="100dp"
+                                            android:layout_alignParentRight="true"
+                                            android:maxHeight="100dp"
+                                            android:src="@drawable/drumb" />
+
+                                    </RelativeLayout>
+                                </androidx.cardview.widget.CardView>
+                            </LinearLayout>
+                            <!--                            Penutup Menu 4-->
+                        </GridLayout>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </androidx.core.widget.NestedScrollView>
+            </LinearLayout>
+        </ScrollView>
+    </FrameLayout>
+
+</RelativeLayout>

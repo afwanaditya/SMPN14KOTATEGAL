@@ -43,13 +43,13 @@
             android:name=".AlbumfutsalActivity"
             android:exported="false" />
         <activity
-            android:name=".AlbumkegiatankemahbudayaActivity"
+            android:name=".AlbumdrumbbandActivity"
             android:exported="false" />
         <activity
-            android:name=".AlbumperpisahanActivity"
+            android:name=".AlbumfutsalActivity"
             android:exported="false" />
         <activity
-            android:name=".AlbumpelantikanosisActivity"
+            android:name=".AlbumkegiatanActivity"
             android:exported="false" />
         <activity
             android:name=".PerpusActivity"

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Buku7Activity"
-    android:background="@drawable/bekron">
+    android:background="@drawable/roni">
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
@@ -29,34 +29,24 @@
                 android:rowCount="2">
 
 
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="match_parent"
+                <TextView
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    app:cardElevation="10dp"
-                    app:cardBackgroundColor="#03A9F4">
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="40dp"
+                    android:text="KATALOG BUKU KELAS VII"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_marginTop="30dp"
-                        android:layout_marginBottom="40dp"
-                        android:text="KATALOG BUKU KELAS VIII"
-                        android:textColor="#000"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_marginTop="25dp"
-                        android:text="DAFTAR BUKU"
-                        android:textColor="#FF0000"
-                        android:textStyle="bold"/>
-
-                </androidx.cardview.widget.CardView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="DAFTAR BUKU"
+                    android:textColor="#FF0000"
+                    android:textStyle="bold" />
 
                 <LinearLayout
                     android:layout_width="match_parent"

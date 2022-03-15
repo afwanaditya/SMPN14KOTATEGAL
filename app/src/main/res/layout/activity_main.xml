@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity"
-    android:background="@drawable/abstrak">
+    android:background="@drawable/roni">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -46,6 +46,7 @@
                         android:layout_height="match_parent"
                         android:layout_margin="3dp"
                         android:padding="1dp"
+                        android:onClick="profile"
                         app:cardCornerRadius="15dp">
 
                         <LinearLayout
@@ -53,13 +54,14 @@
                             android:layout_height="match_parent"
                             android:gravity="center"
                             android:orientation="vertical">
-                            <ImageView
-                                android:layout_width="80dp"
-                                android:layout_height="80dp"
-                                android:layout_gravity="center"
-                                android:onClick="profile"
-                                android:layout_margin="10dp"
-                                android:src="@drawable/profil"/>
+
+                            <com.airbnb.lottie.LottieAnimationView
+                                android:layout_width="225dp"
+                                android:layout_height="100dp"
+                                app:lottie_loop="true"
+                                app:lottie_autoPlay="true"
+                                app:lottie_fileName="campus.json"/>
+
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
@@ -83,6 +85,7 @@
                         android:layout_height="match_parent"
                         android:layout_margin="3dp"
                         android:padding="1dp"
+                        android:onClick="perpus"
                         app:cardCornerRadius="15dp">
 
                         <LinearLayout
@@ -90,13 +93,14 @@
                             android:layout_height="match_parent"
                             android:gravity="center"
                             android:orientation="vertical">
-                            <ImageView
-                                android:layout_width="80dp"
-                                android:layout_height="80dp"
-                                android:layout_gravity="center"
-                                android:onClick="perpus"
-                                android:layout_margin="10dp"
-                                android:src="@drawable/bukumek"/>
+
+                            <com.airbnb.lottie.LottieAnimationView
+                                android:layout_width="225dp"
+                                android:layout_height="100dp"
+                                app:lottie_loop="true"
+                                app:lottie_autoPlay="true"
+                                app:lottie_fileName="book.json"/>
+
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
@@ -131,6 +135,7 @@
                         android:layout_height="match_parent"
                         android:layout_margin="3dp"
                         android:padding="1dp"
+                        android:onClick="galeri"
                         app:cardCornerRadius="15dp">
 
                         <LinearLayout
@@ -138,13 +143,14 @@
                             android:layout_height="match_parent"
                             android:gravity="center"
                             android:orientation="vertical">
-                            <ImageView
-                                android:layout_width="80dp"
-                                android:layout_height="80dp"
-                                android:layout_gravity="center"
-                                android:onClick="galeri"
-                                android:layout_margin="10dp"
-                                android:src="@drawable/gleri"/>
+
+                            <com.airbnb.lottie.LottieAnimationView
+                                android:layout_width="225dp"
+                                android:layout_height="100dp"
+                                app:lottie_loop="true"
+                                app:lottie_autoPlay="true"
+                                app:lottie_fileName="galery.json"/>
+
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
@@ -168,6 +174,7 @@
                         android:layout_height="match_parent"
                         android:layout_margin="3dp"
                         android:padding="1dp"
+                        android:onClick="fasilitas"
                         app:cardCornerRadius="15dp">
 
                         <LinearLayout
@@ -175,13 +182,14 @@
                             android:layout_height="match_parent"
                             android:gravity="center"
                             android:orientation="vertical">
-                            <ImageView
-                                android:layout_width="80dp"
-                                android:layout_height="80dp"
-                                android:layout_gravity="center"
-                                android:onClick="fasilitas"
-                                android:layout_margin="10dp"
-                                android:src="@drawable/poke"/>
+
+                            <com.airbnb.lottie.LottieAnimationView
+                                android:layout_width="225dp"
+                                android:layout_height="100dp"
+                                app:lottie_loop="true"
+                                app:lottie_autoPlay="true"
+                                app:lottie_fileName="fasilitas.json"/>
+
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
@@ -216,6 +224,7 @@
                         android:layout_height="match_parent"
                         android:layout_margin="3dp"
                         android:padding="1dp"
+                        android:onClick="ekskul"
                         app:cardCornerRadius="15dp">
 
                         <LinearLayout
@@ -223,13 +232,12 @@
                             android:layout_height="match_parent"
                             android:gravity="center"
                             android:orientation="vertical">
-                            <ImageView
-                                android:layout_width="80dp"
-                                android:layout_height="80dp"
-                                android:layout_gravity="center"
-                                android:onClick="ekskul"
-                                android:layout_margin="10dp"
-                                android:src="@drawable/lari"/>
+                            <com.airbnb.lottie.LottieAnimationView
+                                android:layout_width="225dp"
+                                android:layout_height="100dp"
+                                app:lottie_loop="true"
+                                app:lottie_autoPlay="true"
+                                app:lottie_fileName="ball.json"/>
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
@@ -253,6 +261,7 @@
                         android:layout_height="match_parent"
                         android:layout_margin="3dp"
                         android:padding="1dp"
+                        android:onClick="guru"
                         app:cardCornerRadius="15dp">
 
                         <LinearLayout
@@ -260,13 +269,12 @@
                             android:layout_height="match_parent"
                             android:gravity="center"
                             android:orientation="vertical">
-                            <ImageView
-                                android:layout_width="80dp"
-                                android:layout_height="80dp"
-                                android:layout_gravity="center"
-                                android:onClick="guru"
-                                android:layout_margin="10dp"
-                                android:src="@drawable/guru"/>
+                            <com.airbnb.lottie.LottieAnimationView
+                                android:layout_width="225dp"
+                                android:layout_height="100dp"
+                                app:lottie_loop="true"
+                                app:lottie_autoPlay="true"
+                                app:lottie_fileName="prifl.json"/>
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"

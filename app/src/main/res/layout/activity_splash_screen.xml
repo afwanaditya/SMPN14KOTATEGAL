@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".splash_screenActivity">
+    tools:context=".splash_screenActivity"
+    android:background="@drawable/roni">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -12,22 +13,23 @@
         android:orientation="vertical"
         android:gravity="center">
 
-        <ImageView
-            android:layout_width="140dp"
-            android:layout_height="140dp"
-            android:layout_centerHorizontal="true"
-            android:layout_centerVertical="true"
-            android:src="@drawable/golkar"/>
-
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="monospace"
             android:layout_gravity="center"
             android:textStyle="bold"
+            android:textSize="20dp"
             android:layout_marginTop="10dp"
             android:textColor="@color/black"
-            android:text="SMP N 14 KOTA TEGAL"/>
+            android:text="SMPN 14 KOTA TEGAL"/>
+
+        <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        app:lottie_loop="true"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="78259-loading.json"/>
 
     </LinearLayout>
 

@@ -21,15 +21,17 @@
             android:textStyle="bold"
             android:textSize="20dp"
             android:layout_marginTop="10dp"
+            android:layout_marginLeft="57dp"
             android:textColor="@color/black"
-            android:text="SMPN 14 KOTA TEGAL"/>
+            android:text="SELAMAT DATANG DI
+            SMPN 14 KOTA TEGAL"/>
 
         <com.airbnb.lottie.LottieAnimationView
         android:layout_width="300dp"
         android:layout_height="200dp"
         app:lottie_loop="true"
         app:lottie_autoPlay="true"
-        app:lottie_fileName="78259-loading.json"/>
+        app:lottie_fileName="loading.json"/>
 
     </LinearLayout>
 

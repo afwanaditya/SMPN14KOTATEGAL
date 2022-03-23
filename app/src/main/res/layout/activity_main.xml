@@ -289,9 +289,74 @@
                 <!--                penutup menu 1-->
 
 
+                <!--            pembuka ujian-->
+
+                <!--            penutup ujian-->
 
             </LinearLayout>
             <!--            penutup variable menu 1 dan 2-->
+
+<!--            ujian-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2">
+                <!--                menu 1-->
+
+                <!--                penutup menu 1-->
+                menu 1-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_margin="3dp"
+                        android:padding="1dp"
+                        android:onClick="ujian"
+                        app:cardCornerRadius="15dp">
+
+                        <com.airbnb.lottie.LottieAnimationView
+                            android:layout_width="150dp"
+                            android:layout_height="100dp"
+                            android:layout_marginRight="110dp"
+                            app:lottie_autoPlay="true"
+                            app:lottie_fileName="wahyu.json"
+                            app:lottie_loop="true"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="UJIAN SEKOLAH"
+                                android:gravity="clip_vertical"
+                                android:layout_marginLeft="60dp"
+                                android:textColor="#000"
+                                android:textSize="20dp"
+                                android:textStyle="bold"/>
+
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+                <!--                penutup menu 1-->
+
+
+                <!--            pembuka ujian-->
+
+                <!--            penutup ujian-->
+
+            </LinearLayout>
+<!--ujian-->
+
 
             <LinearLayout
                 android:layout_width="match_parent"

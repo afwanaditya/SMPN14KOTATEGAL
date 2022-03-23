@@ -47,7 +47,8 @@
                         android:layout_margin="3dp"
                         android:padding="1dp"
                         android:onClick="profile"
-                        app:cardCornerRadius="15dp">
+                        app:cardCornerRadius="15dp"
+                        android:background="@color/white">
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -86,7 +87,8 @@
                         android:layout_margin="3dp"
                         android:padding="1dp"
                         android:onClick="perpus"
-                        app:cardCornerRadius="15dp">
+                        app:cardCornerRadius="15dp"
+                        android:background="@color/white">
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -136,7 +138,8 @@
                         android:layout_margin="3dp"
                         android:padding="1dp"
                         android:onClick="galeri"
-                        app:cardCornerRadius="15dp">
+                        app:cardCornerRadius="15dp"
+                        android:background="@color/white">
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -175,7 +178,8 @@
                         android:layout_margin="3dp"
                         android:padding="1dp"
                         android:onClick="fasilitas"
-                        app:cardCornerRadius="15dp">
+                        app:cardCornerRadius="15dp"
+                        android:background="@color/white">
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -225,7 +229,8 @@
                         android:layout_margin="3dp"
                         android:padding="1dp"
                         android:onClick="ekskul"
-                        app:cardCornerRadius="15dp">
+                        app:cardCornerRadius="15dp"
+                        android:background="@color/white">
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -262,7 +267,8 @@
                         android:layout_margin="3dp"
                         android:padding="1dp"
                         android:onClick="guru"
-                        app:cardCornerRadius="15dp">
+                        app:cardCornerRadius="15dp"
+                        android:background="@color/white">
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -317,7 +323,8 @@
                         android:layout_margin="3dp"
                         android:padding="1dp"
                         android:onClick="ujian"
-                        app:cardCornerRadius="15dp">
+                        app:cardCornerRadius="15dp"
+                        android:background="@color/white">
 
                         <com.airbnb.lottie.LottieAnimationView
                             android:layout_width="150dp"

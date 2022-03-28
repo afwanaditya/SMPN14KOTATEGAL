@@ -45,22 +45,6 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void google(View view) {
-        goToUrl("http://smpn14tegal.mysch.id/");
-    }
-
-    public void facebook(View view) {
-        goToUrl("http://smpn14tegal.mysch.id/");
-    }
-
-    public void instagram(View view) {
-        goToUrl("https://www.instagram.com/accounts/login/?next=/aditngemim/");
-    }
-
-    public void youtube(View view) {
-        goToUrl("https://www.youtube.com/channel/UCqfBWTmB1ErMRP5VtJ5VVIQ");
-    }
-
     private void goToUrl(String url) {
         Uri uriUrl = Uri.parse(url);
         Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
@@ -69,6 +53,26 @@ public class MainActivity extends AppCompatActivity {
 
     public void ujian(View view) {
         Intent intent = new Intent(MainActivity.this, UjianActivity.class);
+        startActivity(intent);
+    }
+
+    public void youtube(View view) {
+        Intent intent = new Intent(MainActivity.this, youtubeActivity.class);
+        startActivity(intent);
+    }
+
+    public void instagram(View view) {
+        Intent intent = new Intent(MainActivity.this, instagramActivity.class);
+        startActivity(intent);
+    }
+
+    public void google(View view) {
+        Intent intent = new Intent(MainActivity.this, googleActivity.class);
+        startActivity(intent);
+    }
+
+    public void facebook(View view) {
+        Intent intent = new Intent(MainActivity.this, facebookActivity.class);
         startActivity(intent);
     }
 }

@@ -16,6 +16,18 @@
         android:theme="@style/Theme.SMP14KOTATEGAL"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".facebookActivity"
+            android:exported="false" />
+        <activity
+            android:name=".googleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".youtubeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".instagramActivity"
+            android:exported="false" />
+        <activity
             android:name=".CobaActivity"
             android:exported="false" />
         <activity

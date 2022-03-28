@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Buku7Activity"
-    android:background="@drawable/roni">
+    tools:context=".Buku8Activity"
+    android:background="@drawable/bekron">
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
@@ -35,7 +35,7 @@
                     android:layout_gravity="center"
                     android:layout_marginTop="30dp"
                     android:layout_marginBottom="40dp"
-                    android:text="KATALOG BUKU KELAS VII"
+                    android:text="KATALOG BUKU KELAS VIII"
                     android:textColor="#000"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -46,7 +46,7 @@
                     android:layout_gravity="center"
                     android:text="DAFTAR BUKU"
                     android:textColor="#FF0000"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -78,8 +78,9 @@
                                     android:cursorVisible="true"
                                     android:gravity="center"
                                     android:linksClickable="true"
-                                    android:onClick="mat7s1"
-                                    android:orientation="vertical">
+                                    android:onClick="mat8s1"
+                                    android:orientation="vertical"
+                                    android:background="@color/white">
 
                                     <ImageView
                                         android:layout_width="100dp"
@@ -123,13 +124,14 @@
                                 <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:onClick="mat7s2"
+                                    android:onClick="mat8s2"
                                     android:autoLink="web"
                                     android:clickable="true"
                                     android:cursorVisible="true"
                                     android:linksClickable="true"
                                     android:gravity="center"
-                                    android:orientation="vertical">
+                                    android:orientation="vertical"
+                                    android:background="@color/white">
 
                                     <ImageView
                                         android:layout_width="match_parent"
@@ -181,13 +183,14 @@
                                 <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:onClick="ipa1kls7"
+                                    android:onClick="ipa1kls8"
                                     android:autoLink="web"
                                     android:clickable="true"
                                     android:cursorVisible="true"
                                     android:linksClickable="true"
                                     android:gravity="center"
-                                    android:orientation="vertical">
+                                    android:orientation="vertical"
+                                    android:background="@color/white">
 
                                     <ImageView
                                         android:layout_width="100dp"
@@ -231,13 +234,14 @@
                                 <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:onClick="ipa2kls7"
+                                    android:onClick="ipa2kls8"
                                     android:autoLink="web"
                                     android:clickable="true"
                                     android:cursorVisible="true"
                                     android:linksClickable="true"
                                     android:gravity="center"
-                                    android:orientation="vertical">
+                                    android:orientation="vertical"
+                                    android:background="@color/white">
 
                                     <ImageView
                                         android:layout_width="100dp"
@@ -289,13 +293,14 @@
                                 <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:onClick="pra1kls7"
+                                    android:onClick="pra1kls8"
                                     android:autoLink="web"
                                     android:clickable="true"
                                     android:cursorVisible="true"
                                     android:linksClickable="true"
                                     android:gravity="center"
-                                    android:orientation="vertical">
+                                    android:orientation="vertical"
+                                    android:background="@color/white">
 
                                     <ImageView
                                         android:layout_width="100dp"
@@ -339,13 +344,14 @@
                                 <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:onClick="pra2kls7"
+                                    android:onClick="pra2kls8"
                                     android:autoLink="web"
                                     android:clickable="true"
                                     android:cursorVisible="true"
                                     android:linksClickable="true"
                                     android:gravity="center"
-                                    android:orientation="vertical">
+                                    android:orientation="vertical"
+                                    android:background="@color/white">
 
                                     <ImageView
                                         android:layout_width="100dp"
@@ -402,8 +408,9 @@
                                     android:cursorVisible="true"
                                     android:gravity="center"
                                     android:linksClickable="true"
-                                    android:onClick="indkls7"
-                                    android:orientation="vertical">
+                                    android:onClick="indkls8"
+                                    android:orientation="vertical"
+                                    android:background="@color/white">
 
                                     <ImageView
                                         android:layout_width="100dp"
@@ -454,8 +461,9 @@
                                     android:cursorVisible="true"
                                     android:gravity="center"
                                     android:linksClickable="true"
-                                    android:onClick="ingkls7"
-                                    android:orientation="vertical">
+                                    android:onClick="ingkls8"
+                                    android:orientation="vertical"
+                                    android:background="@color/white">
 
                                     <ImageView
                                         android:layout_width="100dp"
@@ -509,13 +517,14 @@
                                 <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:onClick="ppkn7"
+                                    android:onClick="ppkn8"
                                     android:autoLink="web"
                                     android:clickable="true"
                                     android:cursorVisible="true"
                                     android:linksClickable="true"
                                     android:gravity="center"
-                                    android:orientation="vertical">
+                                    android:orientation="vertical"
+                                    android:background="@color/white">
 
                                     <ImageView
                                         android:layout_width="100dp"
@@ -552,13 +561,14 @@
                                 <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:onClick="paikls7"
+                                    android:onClick="paikls8"
                                     android:autoLink="web"
                                     android:clickable="true"
                                     android:cursorVisible="true"
                                     android:linksClickable="true"
                                     android:gravity="center"
-                                    android:orientation="vertical">
+                                    android:orientation="vertical"
+                                    android:background="@color/white">
 
                                     <ImageView
                                         android:layout_width="100dp"
@@ -603,13 +613,14 @@
                                 <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:onClick="penjas7"
+                                    android:onClick="penjas8"
                                     android:autoLink="web"
                                     android:clickable="true"
                                     android:cursorVisible="true"
                                     android:linksClickable="true"
                                     android:gravity="center"
-                                    android:orientation="vertical">
+                                    android:orientation="vertical"
+                                    android:background="@color/white">
 
                                     <ImageView
                                         android:layout_width="100dp"
@@ -646,13 +657,14 @@
                                 <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:onClick="sbykls7"
+                                    android:onClick="sbykls8"
                                     android:autoLink="web"
                                     android:clickable="true"
                                     android:cursorVisible="true"
                                     android:linksClickable="true"
                                     android:gravity="center"
-                                    android:orientation="vertical">
+                                    android:orientation="vertical"
+                                    android:background="@color/white">
 
                                     <ImageView
                                         android:layout_width="100dp"
@@ -707,13 +719,14 @@
                                 <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:onClick="ipskls7"
+                                    android:onClick="ipskls8"
                                     android:autoLink="web"
                                     android:clickable="true"
                                     android:cursorVisible="true"
                                     android:linksClickable="true"
                                     android:gravity="center"
-                                    android:orientation="vertical">
+                                    android:orientation="vertical"
+                                    android:background="@color/white">
 
                                     <ImageView
                                         android:layout_width="100dp"

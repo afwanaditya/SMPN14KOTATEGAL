@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity"
-    android:background="@drawable/roni">
+    android:background="@drawable/bekron">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -23,6 +23,10 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="210dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="0dp"
+                    android:layout_marginBottom="0dp"
                     android:scaleType="fitXY"
                     android:src="@drawable/header" />
 
@@ -41,20 +45,14 @@
                     android:layout_height="170dp"
                     android:layout_weight="1">
 
-                    <androidx.cardview.widget.CardView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_margin="3dp"
-                        android:padding="1dp"
-                        android:onClick="profile"
-                        app:cardCornerRadius="15dp">
 
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:gravity="center"
                             android:orientation="vertical"
-                            android:background="@color/white">
+                            android:onClick="profile"
+                            >
 
                             <com.airbnb.lottie.LottieAnimationView
                                 android:layout_width="225dp"
@@ -68,11 +66,11 @@
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
                                 android:text="PROFIL"
-                                android:textColor="#000"
+                                android:textColor="@color/black"
                                 android:textSize="20dp"
                                 android:textStyle="bold"/>
                         </LinearLayout>
-                    </androidx.cardview.widget.CardView>
+
                 </LinearLayout>
                 <!--                penutup menu 1-->
                 menu 1-->
@@ -81,21 +79,15 @@
                     android:layout_height="170dp"
                     android:layout_weight="1">
 
-                    <androidx.cardview.widget.CardView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_margin="3dp"
-                        android:padding="1dp"
-                        android:onClick="perpus"
-                        app:cardCornerRadius="15dp"
-                        >
+
 
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:gravity="center"
                             android:orientation="vertical"
-                            android:background="@color/white">
+                            android:onClick="perpus"
+                            >
 
                             <com.airbnb.lottie.LottieAnimationView
                                 android:layout_width="225dp"
@@ -109,11 +101,11 @@
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
                                 android:text="PERPUS"
-                                android:textColor="#000"
+                                android:textColor="@color/black"
                                 android:textSize="20dp"
                                 android:textStyle="bold"/>
                         </LinearLayout>
-                    </androidx.cardview.widget.CardView>
+
                 </LinearLayout>
                 <!--                penutup menu 1-->
 
@@ -133,21 +125,15 @@
                     android:layout_height="170dp"
                     android:layout_weight="1">
 
-                    <androidx.cardview.widget.CardView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_margin="3dp"
-                        android:padding="1dp"
-                        android:onClick="galeri"
-                        app:cardCornerRadius="15dp"
-                        >
+
 
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:gravity="center"
                             android:orientation="vertical"
-                            android:background="@color/white">
+                            android:onClick="galeri"
+                            >
 
                             <com.airbnb.lottie.LottieAnimationView
                                 android:layout_width="225dp"
@@ -161,11 +147,11 @@
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
                                 android:text="GALERY"
-                                android:textColor="#000"
+                                android:textColor="@color/black"
                                 android:textSize="20dp"
                                 android:textStyle="bold"/>
                         </LinearLayout>
-                    </androidx.cardview.widget.CardView>
+
                 </LinearLayout>
                 <!--                penutup menu 1-->
                 menu 1-->
@@ -174,21 +160,15 @@
                     android:layout_height="170dp"
                     android:layout_weight="1">
 
-                    <androidx.cardview.widget.CardView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_margin="3dp"
-                        android:padding="1dp"
-                        android:onClick="fasilitas"
-                        app:cardCornerRadius="15dp"
-                        >
+
 
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:gravity="center"
                             android:orientation="vertical"
-                            android:background="@color/white">
+                            android:onClick="fasilitas"
+                            >
 
                             <com.airbnb.lottie.LottieAnimationView
                                 android:layout_width="225dp"
@@ -202,11 +182,11 @@
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
                                 android:text="FASILITAS"
-                                android:textColor="#000"
+                                android:textColor="@color/black"
                                 android:textSize="20dp"
                                 android:textStyle="bold"/>
                         </LinearLayout>
-                    </androidx.cardview.widget.CardView>
+
                 </LinearLayout>
                 <!--                penutup menu 1-->
 
@@ -226,37 +206,31 @@
                     android:layout_height="170dp"
                     android:layout_weight="1">
 
-                    <androidx.cardview.widget.CardView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_margin="3dp"
-                        android:padding="1dp"
-                        android:onClick="ekskul"
-                        app:cardCornerRadius="15dp"
-                        >
+
 
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:gravity="center"
                             android:orientation="vertical"
-                            android:background="@color/white">
+                            android:onClick="ekskul"
+                            >
                             <com.airbnb.lottie.LottieAnimationView
                                 android:layout_width="225dp"
                                 android:layout_height="100dp"
                                 app:lottie_loop="true"
                                 app:lottie_autoPlay="true"
-                                app:lottie_fileName="ball.json"/>
+                                app:lottie_fileName="ekskul.json"/>
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
                                 android:text="EKSKUL"
-                                android:textColor="#000"
+                                android:textColor="@color/black"
                                 android:textSize="20dp"
                                 android:textStyle="bold"/>
                         </LinearLayout>
-                    </androidx.cardview.widget.CardView>
+
                 </LinearLayout>
                 <!--                penutup menu 1-->
                 menu 1-->
@@ -265,21 +239,15 @@
                     android:layout_height="170dp"
                     android:layout_weight="1">
 
-                    <androidx.cardview.widget.CardView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_margin="3dp"
-                        android:padding="1dp"
-                        android:onClick="guru"
-                        app:cardCornerRadius="15dp"
-                        >
+
 
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:gravity="center"
                             android:orientation="vertical"
-                            android:background="@color/white">
+                            android:onClick="guru"
+                            >
                             <com.airbnb.lottie.LottieAnimationView
                                 android:layout_width="225dp"
                                 android:layout_height="100dp"
@@ -291,11 +259,11 @@
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
                                 android:text="GURU"
-                                android:textColor="#000"
+                                android:textColor="@color/black"
                                 android:textSize="20dp"
                                 android:textStyle="bold"/>
                         </LinearLayout>
-                    </androidx.cardview.widget.CardView>
+
                 </LinearLayout>
                 <!--                penutup menu 1-->
 
@@ -307,71 +275,41 @@
             </LinearLayout>
             <!--            penutup variable menu 1 dan 2-->
 
-<!--            ujian-->
+            <!--            ujian-->
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="150dp"
                 android:orientation="horizontal"
-                android:weightSum="2">
-                <!--                menu 1-->
+                android:layout_marginTop="5dp"
+                android:layout_margin="5dp"
+                app:cardElevation="20dp"
+                app:cardCornerRadius="25dp"
+                android:onClick="ujian"
+                >
 
-                <!--                penutup menu 1-->
-                menu 1-->
-                <LinearLayout
-                    android:layout_width="match_parent"
+                <com.airbnb.lottie.LottieAnimationView
+                    android:layout_width="150dp"
                     android:layout_height="100dp"
-                    android:layout_weight="1">
+                    app:lottie_loop="true"
+                    android:layout_gravity="center"
+                    app:lottie_autoPlay="true"
+                    android:layout_marginLeft="20dp"
+                    app:lottie_fileName="wahyu.json"/>
 
-                    <androidx.cardview.widget.CardView
-                        android:layout_width="match_parent"
-                        android:layout_height="100dp"
-                        android:layout_margin="3dp"
-                        android:padding="1dp"
-                        android:onClick="ujian"
-                        app:cardCornerRadius="15dp"
-                        >
-
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:gravity="center"
-                            android:orientation="vertical"
-                            android:background="@color/white">
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="UJIAN SEKOLAH"
-                                android:gravity="clip_vertical"
-                                android:layout_marginLeft="60dp"
-                                android:textColor="#000"
-                                android:textSize="20dp"
-                                android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="UJIAN SEKOLAH"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="20dp"/>
 
 
-                        </LinearLayout>
-
-                        <com.airbnb.lottie.LottieAnimationView
-                            android:layout_width="150dp"
-                            android:layout_height="100dp"
-                            android:layout_marginRight="110dp"
-                            app:lottie_autoPlay="true"
-                            app:lottie_fileName="wahyu.json"
-                            app:lottie_loop="true"/>
-
-                    </androidx.cardview.widget.CardView>
-                </LinearLayout>
-                <!--                penutup menu 1-->
-
-
-                <!--            pembuka ujian-->
-
-                <!--            penutup ujian-->
 
             </LinearLayout>
-<!--ujian-->
-
+            <!--ujian-->
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -383,7 +321,7 @@
                 android:layout_margin="5dp"
                 app:cardElevation="20dp"
                 app:cardCornerRadius="25dp"
-                android:background="@color/white">
+                >
 
                 <ImageView
                     android:layout_width="50dp"

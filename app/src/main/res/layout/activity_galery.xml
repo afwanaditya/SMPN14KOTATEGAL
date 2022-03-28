@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".GaleryActivity"
-    android:background="@drawable/roni">
+    android:background="@drawable/bekron">
 
     <ScrollView
         android:layout_width="match_parent"

@@ -5,33 +5,54 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".splash_screenActivity"
-    android:background="@drawable/roni">
+    android:background="@color/white">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:gravity="center">
+        android:gravity="center" >
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="55dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/golkar"
+            />
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="monospace"
-            android:layout_gravity="center"
+            android:text="SMP N 14 KOTA TEGAL"
+            android:gravity="center"
+            android:layout_marginBottom="50dp"
             android:textStyle="bold"
-            android:textSize="20dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginLeft="57dp"
-            android:textColor="@color/black"
-            android:text="SELAMAT DATANG DI
-            SMPN 14 KOTA TEGAL"/>
+            android:textSize="18dp"
+            android:textColor="@color/black"/>
 
         <com.airbnb.lottie.LottieAnimationView
-        android:layout_width="300dp"
-        android:layout_height="200dp"
-        app:lottie_loop="true"
-        app:lottie_autoPlay="true"
-        app:lottie_fileName="loading.json"/>
+            android:layout_width="800dp"
+            android:layout_height="200dp"
+            app:lottie_fileName="loading.json"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\u00A9Copyright 2022"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Afwan Aditya Saputra"
+            android:gravity="center"
+            android:textColor="#000"/>
 
     </LinearLayout>
 

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Buku7Activity"
-    android:background="@drawable/roni">
+    android:background="@drawable/bekron">
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
@@ -79,7 +79,8 @@
                                     android:gravity="center"
                                     android:linksClickable="true"
                                     android:onClick="mat7s1"
-                                    android:orientation="vertical">
+                                    android:orientation="vertical"
+                                    android:background="@color/white">
 
                                     <ImageView
                                         android:layout_width="100dp"
@@ -129,7 +130,8 @@
                                     android:cursorVisible="true"
                                     android:linksClickable="true"
                                     android:gravity="center"
-                                    android:orientation="vertical">
+                                    android:orientation="vertical"
+                                    android:background="@color/white">
 
                                     <ImageView
                                         android:layout_width="match_parent"
@@ -187,7 +189,8 @@
                                     android:cursorVisible="true"
                                     android:linksClickable="true"
                                     android:gravity="center"
-                                    android:orientation="vertical">
+                                    android:orientation="vertical"
+                                    android:background="@color/white">
 
                                     <ImageView
                                         android:layout_width="100dp"
@@ -237,7 +240,8 @@
                                     android:cursorVisible="true"
                                     android:linksClickable="true"
                                     android:gravity="center"
-                                    android:orientation="vertical">
+                                    android:orientation="vertical"
+                                    android:background="@color/white">
 
                                     <ImageView
                                         android:layout_width="100dp"
@@ -295,7 +299,8 @@
                                     android:cursorVisible="true"
                                     android:linksClickable="true"
                                     android:gravity="center"
-                                    android:orientation="vertical">
+                                    android:orientation="vertical"
+                                    android:background="@color/white">
 
                                     <ImageView
                                         android:layout_width="100dp"
@@ -345,7 +350,8 @@
                                     android:cursorVisible="true"
                                     android:linksClickable="true"
                                     android:gravity="center"
-                                    android:orientation="vertical">
+                                    android:orientation="vertical"
+                                    android:background="@color/white">
 
                                     <ImageView
                                         android:layout_width="100dp"
@@ -403,7 +409,8 @@
                                     android:gravity="center"
                                     android:linksClickable="true"
                                     android:onClick="indkls7"
-                                    android:orientation="vertical">
+                                    android:orientation="vertical"
+                                    android:background="@color/white">
 
                                     <ImageView
                                         android:layout_width="100dp"
@@ -455,7 +462,8 @@
                                     android:gravity="center"
                                     android:linksClickable="true"
                                     android:onClick="ingkls7"
-                                    android:orientation="vertical">
+                                    android:orientation="vertical"
+                                    android:background="@color/white">
 
                                     <ImageView
                                         android:layout_width="100dp"
@@ -515,7 +523,8 @@
                                     android:cursorVisible="true"
                                     android:linksClickable="true"
                                     android:gravity="center"
-                                    android:orientation="vertical">
+                                    android:orientation="vertical"
+                                    android:background="@color/white">
 
                                     <ImageView
                                         android:layout_width="100dp"
@@ -558,7 +567,8 @@
                                     android:cursorVisible="true"
                                     android:linksClickable="true"
                                     android:gravity="center"
-                                    android:orientation="vertical">
+                                    android:orientation="vertical"
+                                    android:background="@color/white">
 
                                     <ImageView
                                         android:layout_width="100dp"
@@ -609,7 +619,8 @@
                                     android:cursorVisible="true"
                                     android:linksClickable="true"
                                     android:gravity="center"
-                                    android:orientation="vertical">
+                                    android:orientation="vertical"
+                                    android:background="@color/white">
 
                                     <ImageView
                                         android:layout_width="100dp"
@@ -652,7 +663,8 @@
                                     android:cursorVisible="true"
                                     android:linksClickable="true"
                                     android:gravity="center"
-                                    android:orientation="vertical">
+                                    android:orientation="vertical"
+                                    android:background="@color/white">
 
                                     <ImageView
                                         android:layout_width="100dp"
@@ -713,7 +725,8 @@
                                     android:cursorVisible="true"
                                     android:linksClickable="true"
                                     android:gravity="center"
-                                    android:orientation="vertical">
+                                    android:orientation="vertical"
+                                    android:background="@color/white">
 
                                     <ImageView
                                         android:layout_width="100dp"
